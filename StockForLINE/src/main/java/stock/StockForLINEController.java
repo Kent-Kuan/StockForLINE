@@ -21,9 +21,4 @@ public class StockForLINEController {
 		return stockForLINEServices.getStockDetails(stockNum);
 	}
 	
-	@GetMapping(value="/test")
-	@ResponseBody
-	public String test(){
-		return "中文中文";
-	}
 }
